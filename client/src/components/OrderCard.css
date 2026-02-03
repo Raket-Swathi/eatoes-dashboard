@@ -1,0 +1,53 @@
+.order-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-pill {
+  padding: 6px 14px;
+  border-radius: 999px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status-pill.Pending { background: #f59e0b; }
+.status-pill.Preparing { background: #3b82f6; }
+.status-pill.Ready { background: #10b981; }
+.status-pill.Delivered { background: #22c55e; }
+.status-pill.Cancelled { background: #ef4444; }
+
+.order-total {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.order-items {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+.status-select {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+}
