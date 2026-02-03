@@ -21,7 +21,7 @@ export default function MenuManagement() {
   const { menuItems, setMenuItems } = useMenu();
 
   // allowed characters: letters, numbers, spaces, comma, dot, dash
-  const specialCharRegex = /[^a-zA-Z0-9 ,.\-]/;
+  const specialCharRegex = /[^a-zA-Z0-9 ,.-]/;
 
   // initial load
   useEffect(() => {
